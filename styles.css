@@ -1,0 +1,55 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+
+body {
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+}
+h3{
+    color:lightgray;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    color: lightgray;
+}
+
+footer nav ul li a {
+    color: tomato;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+article p::first-letter {
+    color: lightgray;
+}
+
+footer {
+    color: lightgray;
+}
